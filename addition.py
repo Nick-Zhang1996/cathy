@@ -10,8 +10,8 @@ random.seed()
 input('ready? (press Enter)')
 t0 = time()
 while correct_count < count:
-    val1 = random.randrange(11,88)
-    val2 = random.randrange(11,88)
+    val1 = random.randrange(0,9999)
+    val2 = random.randrange(0,9999)
     val = input(f'{val1} + {val2} = ')
     total_count += 1
     if (int(val) == val1+val2):
